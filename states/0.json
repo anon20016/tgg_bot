@@ -1,0 +1,11 @@
+{
+  "id": 0,
+  "name": "Not authenticated",
+  "tags": [],
+  "neighbours": [
+    {
+      "id": 1,
+      "tags": []
+    }
+  ]
+}
