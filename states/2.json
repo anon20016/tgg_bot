@@ -1,8 +1,10 @@
 {
   "id": 2,
-  "name": "Houses",
+  "name": "Authenticated",
   "tags": [
-    "корпус"
+    "привет",
+    "добрый день"
   ],
-  "neighbours": []
+  "neighbours": [],
+  "url": "Добро пожаловать в телеграмм бот КНиИТ!"
 }

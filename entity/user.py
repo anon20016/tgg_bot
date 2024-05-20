@@ -6,7 +6,7 @@ class User:
     user_name: str
     state: int
     extra: str
-    history: list[tuple[str, int]]
+    history: list[dict[str, int]]
 
     def __init__(self, user_id, user_name='newcomer', state=0, extra='', history=None):
         if history is None:

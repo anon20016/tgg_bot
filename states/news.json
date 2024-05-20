@@ -6,12 +6,6 @@
     "что нового",
     "почитать"
   ],
-  "neighbours": [
-    {
-      "id": 2,
-      "tags": [
-        "где корпус"
-      ]
-    }
-  ]
+  "neighbours": [],
+  "url": "https://www.sgu.ru/"
 }

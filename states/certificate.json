@@ -1,0 +1,9 @@
+{
+  "id": 4,
+  "name": "Certificate",
+  "tags": [
+    "справка", "получить справка"
+  ],
+  "neighbours": [],
+  "url": "https://ipsilon.sgu.ru/online_dekanat"
+}

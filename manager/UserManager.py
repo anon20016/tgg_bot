@@ -14,6 +14,16 @@ class UserManager:
         if GetParam('user_storage_type') == 'json':
             self.users = JsonLoad()
 
+    def Add(self, user_id: int, name: str):
+        user = User(user_id, name)
+        self.users[user_id] = user
+        with open(f'users/{user_id}.json', 'w', encoding='utf-8') as f:
+            json.dump(user.__dict__, f, ensure_ascii=False)
+        return user
+
+    def GetUser(self, user_id: int, name: str):
+        return self.users[user_id] if user_id in self.users else self.Add(user_id, name)
+
     def Move(self, user_id: int, state: int, command: str):
         user = self.users[user_id]
         user.Move(command, state)
