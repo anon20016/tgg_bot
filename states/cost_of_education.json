@@ -4,6 +4,19 @@
   "tags": [
     "стоимость обучение"
   ],
-  "neighbours": [],
+  "neighbours": [
+    {
+      "id": 7,
+      "tags": [
+        "узнать"
+      ]
+    },
+    {
+      "id": 13,
+      "tags": [
+        "оплатить"
+      ]
+    }
+  ],
   "url": "https://www.sgu.ru/gid-pervokursnika/stoimost-obucheniya"
 }

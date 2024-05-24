@@ -65,8 +65,7 @@ async def echo(update, context):
     next_state = 0
     if len(where) > 0:
         next_state = where.pop()
-        if next_state > 100:
-            manager.user_manager.Move(user_id, next_state, message)
+        manager.user_manager.Move(user_id, next_state, message)
     if next_state == 0:
         await update.message.reply_text("Извините, я Вас не понял, попробуйте задать свой вопрос еще раз")
     else:

@@ -4,6 +4,10 @@
   "tags": [
     "пересдача"
   ],
-  "neighbours": [],
+  "neighbours": [{
+      "id": 12,
+      "tags": ["корпус", "найти"]
+    }
+  ],
   "url": "https://course.sgu.ru/course/view.php?id=1491"
 }

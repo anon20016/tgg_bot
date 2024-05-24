@@ -1,16 +1,8 @@
 {
   "id": 0,
   "name": "Not authenticated",
-  "tags": [],
-  "neighbours": [
-    {
-      "id": 1,
-      "tags": [
-        {
-          "id": 6,
-          "tags": ["стоимость"]
-        }
-      ]
-    }
-  ]
+  "tags": [
+    "старт"
+  ],
+  "neighbours": []
 }

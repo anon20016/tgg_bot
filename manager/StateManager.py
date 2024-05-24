@@ -46,15 +46,12 @@ def JsonLoad():
     directory = "./states/"
     result = dict()
 
-    with open(directory + '0.json', encoding='utf-8') as json_data:
-        state = State(**json.load(json_data))
-        result[state.id] = state
+    start = [{'id': x, 'tags': []} for x in range(14)]
 
     for file in os.listdir(directory):
-        if file == '0.json':
-            pass
         with open(directory + file, encoding='utf-8') as json_data:
             state = State(**json.load(json_data))
+            state.neighbours += start
             result[state.id] = state
             result[0].neighbours.append({'id': state.id, 'tags': []})
     return result
